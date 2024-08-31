@@ -1,0 +1,48 @@
+baseURL = 'https://programb.github.io/'
+languageCode = 'en-us'
+title = "programB's funs & chores"
+theme = "m10c"
+paginate = 8
+enableGitInfo = true
+pluralizelisttitles = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+[params]
+  author = "programB"
+  description = " "
+  menu_item_separator =" "
+  avatar = "/avatar.png"
+  # favicon ="Absolute path of your favicon.ico file (default: "/favicon.ico")
+
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/programb"
+
+  [params.style]
+    # sidebar background
+    darkestColor = "#242930"
+    # main area background
+    darkColor = "#3f434e"
+    # normal font color
+    lightColor = "#9ea1a7"
+    # titles font color
+    lightestColor = "#ffffff"
+    # emphasis color
+    primaryColor = "#f59821"
