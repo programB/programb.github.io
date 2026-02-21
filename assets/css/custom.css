@@ -1,0 +1,6 @@
+/* Override default font and its properties */
+html,
+body {
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 14pt;
+}
