@@ -22,7 +22,7 @@ replyByEmail = false
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
-disableTextInHeader = false
+disableTextInHeader = true
 # backgroundImageWidth = 1200
 
 # defaultBackgroundImage = "image.jpg" # used as default for background images

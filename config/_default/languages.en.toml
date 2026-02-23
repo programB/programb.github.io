@@ -10,7 +10,9 @@ title = "programB's blog"
   rtl = false
   dateFormat = "02.01.2006"
   # logo = "img/logo.png"
+  logo = "programB_logo_dark_ts.svg"
   # secondaryLogo = "img/secondary-logo.png"
+  secondaryLogo = "programB_logo_light_ts.svg"
   description = "programB's personal website and blog."
   copyright = "© 2024-2026 programB · CC BY-SA 4.0"
 
