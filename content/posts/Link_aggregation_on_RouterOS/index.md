@@ -13,7 +13,8 @@ Here is a reminder of the topology we want to end up with.
 ![lab's topology](images/LACP_training_topology.png)
 (LAG stands for Link Aggregation Group, ASWx - access switches, DSW - distribution switch, R - router)
 
-I am simulating all devices in GNS3 using CHR based on RouterOS v7.
+> [!NOTE]
+> I am simulating all devices in GNS3 using CHR based on RouterOS v7. I have not applied any "default configuration".
 
 ## Capabilities and terminology
 
@@ -259,7 +260,7 @@ So with the configuration completed let's see if it actually works.
 
 ## Configuration check-up and monitoring
 
-To check if LAG aka bonding interfaces were create we can print the list of all interfaces (here on ASW1):
+To check if LAG aka bonding interfaces were created we can print the list of all interfaces (here on ASW1):
 
 ```
 [admin@ASW1] > /interface/print
