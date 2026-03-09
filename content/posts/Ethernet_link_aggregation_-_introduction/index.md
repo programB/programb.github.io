@@ -1,6 +1,6 @@
 +++
 date = '2026-03-02T20:06:18+01:00'
-modified = '2026-03-02T20:06:18+01:00'
+modified = '2026-03-09T20:18:51+01:00'
 draft = false
 title = 'Ethernet link aggregation - introduction'
 tags = []
@@ -107,5 +107,7 @@ The router is responsible for:
 
 - inter VLAN routing
 - DHCP server for all regular VLANs
-- DNS server
+  - optionally the range of leased addresses is limited to .100-.200 in each subnet
+  - it informs hosts of Google's DNS server at 8.8.8.8 (management subnet has this configured statically)
 - NAT to the internet
+  - the "nating" interface is configured as a DHCP client
